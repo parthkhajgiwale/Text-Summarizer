@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Text Summarizer</h1>
+        <form method="POST" action="/">
+            <label for="text">Enter the text to summarize:</label>
+            <textarea id="text" name="text" rows="10" cols="50"></textarea>
+
+            <label for="lines">Enter the number of lines for the summary:</label>
+            <input type="number" id="lines" name="lines" min="1" max="10">
+
+            <input type="submit" value="Summarize">
+        </form>
+    </div>
+</body>
+</html>
